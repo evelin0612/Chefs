@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "chefs-secret",
+    "slug": "chefs-secret",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "chefs-secret",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
