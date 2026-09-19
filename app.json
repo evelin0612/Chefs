@@ -7,7 +7,7 @@
     "scheme": "chefs-secret",
     "userInterfaceStyle": "light",
     "plugins": [
-      "expo-router"
+      
     ]
   }
 }
