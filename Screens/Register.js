@@ -17,7 +17,7 @@ export default function RegisterScreen({ navigation }) {
       await createUserWithEmailAndPassword(auth, email, password);
       
       Alert.alert(
-        'Conta Criada com Sucesso! 🎉',
+        'Conta Criada com Sucesso!',
         'Seu diário de Chef foi criado. Faça o login para começar a salvar suas receitas.',
         [
           {

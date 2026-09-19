@@ -13,13 +13,10 @@ const firebaseConfig = {
   appId: "1:1002389565572:web:8fc1a1e37b9c931ff8d2d1"
 };
 
-// Inicializa o Firebase
 const app = initializeApp(firebaseConfig);
 
-// Configura a autenticação para guardar o login do utilizador no telemóvel
 export const auth = initializeAuth(app, {
   persistence: getReactNativePersistence(AsyncStorage)
 });
 
-// Inicializa a base de dados Firestore
 export const db = getFirestore(app);
