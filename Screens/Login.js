@@ -76,12 +76,12 @@ export default function LoginScreen({ navigation }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#FDF6E3', justifyContent: 'center', alignItems: 'center', padding: 20 },
-  title: { fontSize: 38, fontFamily: 'Caveat_700Bold', color: '#2B1B17', marginTop: 10 },
-  subtitle: { fontSize: 16, fontFamily: 'Merriweather_300Light_Italic', color: '#8B0000', marginBottom: 20 },
+  title: { fontSize: 38, fontWeight: 'bold', color: '#2B1B17', marginTop: 10 },
+  subtitle: { fontSize: 16, fontStyle: 'italic', color: '#8B0000', marginBottom: 20 },
   card: { width: '100%', backgroundColor: '#F4EAD5', padding: 20, borderRadius: 12, borderWidth: 2, borderColor: '#8C6D53', borderStyle: 'dashed' },
-  label: { fontSize: 14, fontFamily: 'Merriweather_400Regular', color: '#3B2F2F', marginBottom: 5 },
-  input: { backgroundColor: '#FDF6E3', borderWidth: 1, borderColor: '#8C6D53', borderRadius: 6, padding: 10, marginBottom: 15, fontFamily: 'Merriweather_400Regular', color: '#2B1B17' },
+  label: { fontSize: 14, fontWeight: '500', color: '#3B2F2F', marginBottom: 5 },
+  input: { backgroundColor: '#FDF6E3', borderWidth: 1, borderColor: '#8C6D53', borderRadius: 6, padding: 10, marginBottom: 15, color: '#2B1B17' },
   buttonPrimary: { backgroundColor: '#8B0000', padding: 12, borderRadius: 6, alignItems: 'center', marginTop: 10 },
-  buttonText: { color: '#FDF6E3', fontFamily: 'Merriweather_700Bold', fontSize: 16 },
-  linkText: { color: '#8B0000', textAlign: 'center', marginTop: 15, fontFamily: 'Merriweather_400Regular', fontSize: 12 }
+  buttonText: { color: '#FDF6E3', fontWeight: 'bold', fontSize: 16 },
+  linkText: { color: '#8B0000', textAlign: 'center', marginTop: 15, fontSize: 12 }
 });
